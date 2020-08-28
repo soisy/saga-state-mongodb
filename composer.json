@@ -4,7 +4,7 @@
   "license": "MIT",
   "require": {
     "php": ">=7.0",
-    "broadway/broadway-saga": "^0.4",
+    "broadway/broadway-saga": "dev-event-stream-interface",
     "doctrine/mongodb": "^1.0",
     "beberlei/assert": "^2.0",
     "alcaeus/mongo-php-adapter": "^1.1"
@@ -58,5 +58,11 @@
     "platform": {
       "ext-mongo": "1.6.16"
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/soisy/broadway-saga"
+    }
+  ]
 }
